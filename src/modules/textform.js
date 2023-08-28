@@ -212,7 +212,7 @@ export default function TextForm(props) {
         </button>
       </div>
       <div className="container my-5" style={{color: props.mode==='light'?'black':'white'}}>
-        <h2>number of characters: {text.length} and words: {text.trim().length === 0 ? 0 : text.trim().split(" ").length}</h2>
+        <h2>number of characters: {text.length} and words: {text.trim().length === 0 ? 0 : text.trim().split(/\s+/).length}</h2>
         {/* <textarea
         style={{color: props.mode==='light'?'white':'black',
         backgroundColor: props.mode==='light'?'black':'white',border:"solid 3px",borderColor:props.mode==='light'?'gray':'black'}}
