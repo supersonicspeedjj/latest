@@ -47,7 +47,7 @@ function App() {
            
 
             <TextForm
-                heading="Enter text here"
+                heading="Enter text here:"
                 mode={mode}
                 setter={setteralert}
               />
