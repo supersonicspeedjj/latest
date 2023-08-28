@@ -47,7 +47,7 @@ function App() {
            
 
             <TextForm
-                heading="enter the text retard"
+                heading="Enter text here"
                 mode={mode}
                 setter={setteralert}
               />
